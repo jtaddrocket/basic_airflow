@@ -27,5 +27,24 @@ Task in a DAG have dependencies, meaning one task might need to finish before an
 These dependencies allow you to control the order in which tasks are executed. Airflow provides mechanisms like 
 set_upstream and set_downstream to define these dependencies between tasks.
 
+# Why Airflow for MLOps
+
+In MLOps, orchestrating ML workflows efficiently is crucial for ensuring that data pipelines, model training, 
+and deployment tasks happen smoothly and in an automated manner. Airflow is well-suited for this purpose because it
+allows you to define, automate, and monitor every step in an ML pipeline.
+
+## 1. Orchestrating ML Pipeline And ETL Pipeline
+
+Data Ingestion ==> Data Preprocessing ==> Model Training and Eval ==> Model Deployment
+
+## 2. Task Automation
+
+## 3. Monitoring And Alert
+
+- Real Time Monitoring -> Airflow UI
+- Task Logs
+- Alert And Notifications -> Emails
+- Retry Mechanism -> Retry Task -> Pre define Rules
+
 
 
